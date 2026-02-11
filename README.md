@@ -1,92 +1,126 @@
-# 👨🏻‍💻Customer Behavior Data Analyst Portfolio Project
-This project represents a complete, industry standard, end-to-end data analytics workflow, designed to mirror the real responsibilities of professional analysts in modern business environments. The project encompasses all critical stages of data analysis, from data preparation and modeling to insight generation, visualization, and reporting.
+# 👨🏻‍💻 Customer Sales & Behavior Data Analytics Project
 
-This project is perfect for:
-- 📊 Data Analyst aspirants who want to build a strong **Portfolio Project** for interviews and LinkedIn
-- 📚 Anyone learning Python, SQL, and Power BI
-- 💼 Professionals preparing for interviews in Data Analytics, Data Science or Product Analytics roles
+## 📌 Project Summary
 
-# **🎥 Watch this [YouTube video](https://www.youtube.com/watch?v=5PrZvPeUw60&list=PLAx-M6Di0SisFJ1rv5M_FRHUlGA5rtUf_&index=3) to implement the full project from scratch:**  
-[![Advanced Data Analysis Portfolio Project using Retail Customer Data](https://github.com/user-attachments/assets/abbb6371-a0b2-4bec-a304-7c7da98658b6)](https://www.youtube.com/watch?v=x8dfQkKTyP0&list=PLAx-M6Di0SisFJ1rv5M_FRHUlGA5rtUf_&index=2)
-🔗 *Link to Video:* [Watch on Youtube](https://www.youtube.com/watch?v=5PrZvPeUw60&list=PLAx-M6Di0SisFJ1rv5M_FRHUlGA5rtUf_&index=3)
+This project represents a complete end-to-end data analytics workflow designed to simulate a real-world business analytics environment. The objective was to analyze customer shopping behavior and sales performance to generate actionable insights that improve revenue, customer engagement, and retention strategies.
 
+The project follows industry-standard analytical steps — from data cleaning and transformation to SQL-based analysis, interactive dashboard development, and professional business reporting.
 
-## 📌 Project Overview
-The goal of this project is to simulate a corporate-grade end-to-end data analytics workflow, demonstrating the ability to translate raw data into strategic business intelligence by:
+---
 
-✅ Data Preparation,Modeling & Exploratory Data Analysis (Python): Clean and transform the raw dataset for analysis.
+## 🎯 Business Problem Statement (PS)
 
-✅ Data Analysis (SQL): Simulate business transactions, and run queries to extract insights on customer segments, loyalty, and purchase drivers.
+A retail business wants to better understand its customers’ purchasing behavior in order to:
 
-✅ Visualization & Insights (Power BI): Build an interactive dashboard that highlights key patterns and trends, enabling stakeholders to make data-driven decisions.
+* Identify trends across demographics and product categories
+* Analyze factors influencing repeat purchases
+* Detect patterns related to customer churn
+* Improve marketing, subscription, and loyalty strategies
 
-✅ Report and Presentation: Write a clear project report summarizing your key findings and business recommendations. Prepare a presentation that visually communicates insights and actionable recommendations to stakeholders.
+The core question addressed:
+**How can customer shopping data be leveraged to optimize sales performance and long-term customer retention?**
 
-![Project Workflow](https://github.com/user-attachments/assets/8bbd5dc9-eb6c-40c1-8f19-c08b4107f654)
+---
 
-## 🛠️ How to Use This Project
+## 🔄 End-to-End Workflow
 
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/amlanmohanty1/customer-trends-data-analysis-SQL-Python-PowerBI.git
-   cd customer-trends-data-analysis-SQL-Python-PowerBI
-   ```
-2. **Open Customer_Shopping_Behavior_Analysis.ipynb notebook**
+### 1️⃣ Data Preparation & Cleaning (Google Colab + Python)
 
-    This file contains:
+* Imported raw dataset in Google Colab
+* Performed exploratory data analysis (EDA)
+* Handled missing values and inconsistencies
+* Standardized formats and structured fields
+* Applied feature engineering (e.g., age groups, purchase frequency)
 
-      - Data Import
+### 2️⃣ Data Modeling & Analysis (SQL)
 
-      - Data exploration
+* Connected cleaned dataset to SQL database
+* Structured relational tables
+* Wrote analytical SQL queries to extract business insights
+* Analyzed customer segments, revenue patterns, subscription behavior, discount usage, and repeat purchase trends
 
-      - Data cleaning
+### 3️⃣ Data Visualization (Power BI)
 
-      - Connection to SQL Database
-  
-3. **Load the data from Python notebook into MySQL/PostgreSQL/MS SQL Server**
+* Connected SQL database to Power BI
+* Built interactive dashboards
+* Designed visuals for:
 
-      - Create a database in SQL
+  * Sales trends and revenue breakdown
+  * Customer segmentation
+  * Subscription impact analysis
+  * Shipping preference impact
+  * Churn-related behavioral insights
+* Implemented slicers, filters, and drill-down capabilities for stakeholder usability
 
-      - Run Python code to load data into SQL database
-  
-      - Open **customer_behavior_sql_queries.sql**
-  
-      - Answer Business Questions using SQL Queries 
-      
-4. **Connect the SQL Database to Power BI**
+### 4️⃣ Professional Reporting & Presentation
 
-      - Open **customer_behavior_dashboard.pbix**
-   
-      - Create interactive dashboard in Power BI
-  
-6. **Create Project Report and Presentation**
+* Created a structured analytical report summarizing:
 
-      - Create project report
-   
-      - Build presentation deck using Gamma AI
-  
-7. **Follow along with the YouTube video for full walkthrough. 👨‍💼**
+  * Methodology
+  * Key findings
+  * Business insights
+  * Strategic recommendations
+* Developed a business-style PowerPoint presentation similar to corporate analytics reporting standards
 
+---
 
-## 📜 License
+## 🛠️ Tech Stack & Tools Used
 
-MIT — feel free to fork, star, and use in your portfolio.
+### 🔹 Data Processing & Analysis
 
-## 👨‍💻 About the Author
-Hey, I’m Amlan Mohanty, a Data Analyst & Content Creator.
-I break down complex data topics into simple, practical content that actually helps you land a job.
+* Google Colab
+* Python
 
- ### 🚀 Stay Connected & Join my Data Community
-If you enjoyed this project and want to keep learning and growing as a data analyst, let’s stay in touch! I regularly share content around SQL, data analytics, portfolio projects, job tips, and more.
+  * Pandas
+  * NumPy
+  * Matplotlib
+  * Seaborn
 
-🎥 YouTube: [Amlan Mohanty](https://www.youtube.com/@amlanmohanty1)
-- Beginner-friendly tutorials, real-world projects, job and career advice
+### 🔹 Database & Querying
 
-📺 Instagram: [datacareerschool](https://www.instagram.com/datacareerschool/)
-- Quick SQL tips, data memes, and behind-the-scenes content
+* SQL (MySQL / PostgreSQL)
+* Relational database modeling
 
-💼 LinkedIn: [Amlan Mohanty](https://www.linkedin.com/in/amlanmohanty1/)
-- Let’s connect professionally and grow your data career
+### 🔹 Visualization & Reporting
 
+* Power BI
+* DAX (for calculated measures)
+* Microsoft PowerPoint (Business Presentation)
+* Professional Analytical Report Documentation
 
-## 💡 Thanks for checking out the project! Your support means a lot! Feel free to star ⭐ this repo or share it with someone learning Data Analytics.🚀
+---
+
+## 📊 Key Analytical Focus Areas
+
+* Customer segmentation (New, Returning, Loyal)
+* Revenue distribution analysis
+* Subscription impact on spending behavior
+* Discount usage patterns
+* Shipping preference influence on purchase value
+* Identification of high-value customer groups
+
+---
+
+## 💡 Business Impact
+
+This project demonstrates how structured data analysis can:
+
+* Improve customer retention strategies
+* Optimize marketing targeting
+* Enhance subscription-based revenue models
+* Support data-driven decision-making
+
+---
+
+## 🚀 Skills Demonstrated
+
+* Data Cleaning & Feature Engineering
+* SQL Query Writing & Data Modeling
+* Dashboard Design & Data Storytelling
+* Business Insight Generation
+* Professional Report & Presentation Development
+* End-to-End Analytics Workflow Execution
+
+---
+
+This project showcases practical, job-ready skills aligned with real-world Data Analyst responsibilities in corporate environments.
