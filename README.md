@@ -1,6 +1,6 @@
 # 👨🏻‍💻 Customer Sales & Behavior Data Analytics Project
 
-click on the customer_dashboar.pdf above to see the Power BI made dashboard
+click on the customer_behavior_dashboar.pdf above to see the Power BI made dashboard
 ## 📌 Project Summary
 
 This project represents a complete end-to-end data analytics workflow designed to simulate a real-world business analytics environment. The objective was to analyze customer shopping behavior and sales performance to generate actionable insights that improve revenue, customer engagement, and retention strategies.
